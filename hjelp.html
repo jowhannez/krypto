@@ -16,20 +16,19 @@
     .help_container {
         display: none;
         position: absolute;
-        top: 50%;
+        top: 100px;
         left: 50%;
-        transform: translateY(-50%) translateX(-50%);
+        transform: translateX(-50%);
         width: 300px;
         height: 150px;
         border: solid 2px #333333;
         background-color: white;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .help_container--active {
-        display: block;
+        display: flex;
     }
 </style>
 <script>
