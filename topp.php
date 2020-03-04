@@ -2,10 +2,14 @@
 	# topp.php
 	include "felles.php";
 	echo "STANDARD TOPP";
-	echo "<br> Programmets navn er: " . PROGNAVN;
+	echo "<br> Velkommen til: " . PROGNAVN;
 	echo "Nyheter om kryptovalutaer:";
 	include "nyheter.html";
-	echo "Sist oppdatart: ";
+	$filename = "nyheter.html";
+	if (file_exists($filename)) {
+		echo "Sist oppdatart: ".date ("F d Y H:i:s.", filemtime($filename));
+	 
+	}
 	echo "<hr>";
 	
 ?>
