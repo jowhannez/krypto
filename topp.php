@@ -13,3 +13,10 @@
 	echo "<hr>";
 	
 ?>
+
+<div>
+	<p>velkommen til programnavn</p>
+</div>
+<div>
+	<p>nyheter om ...</p>
+</div>
