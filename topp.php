@@ -2,7 +2,10 @@
 	# topp.php
 	include "felles.php";
 	echo "STANDARD TOPP";
+	echo "<div>";
 	echo "<br> Velkommen til: " . PROGNAVN;
+	echo "</div>";
+	echo "<div>";
 	echo "Nyheter om kryptovalutaer:";
 	include "nyheter.html";
 	$filename = "nyheter.html";
@@ -10,13 +13,5 @@
 		echo "Sist oppdatart: ".date ("F d Y H:i:s.", filemtime($filename));
 	 
 	}
-	echo "<hr>";
-	
+	echo "</div>";
 ?>
-
-<div>
-	<p>velkommen til programnavn</p>
-</div>
-<div>
-	<p>nyheter om ...</p>
-</div>
