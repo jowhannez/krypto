@@ -1,19 +1,37 @@
 <section>
 <div>nettstedets innehaver som ikke påtar seg noe som helst ansvar for bruk av nettstedet</div>    
 <button id="help">Vis hjelpeinfo</button>
+<div class="help_container" data-help>
+
+    <h1>Heisann</h1>
+    <p>Din hjelp her</p>
+
+</div>
 </section>
 
 
 
 
 <style>
-    #help{
-        
+    .help_container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% -50%);
+        width: 300px;
+        height: 150px;
+        border: solid 2px #333333;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 </style>
 <script>
-    var button=document.getElementById("#help");
+    var button = document.getElementById("#help");
     button.addEventListener("click", function(){
-        button.classList.toggle("active");
+        var container = document.querySelector('[data-help]');
+        container.classList.toggle("help_container--active");
     })
 </script>
