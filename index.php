@@ -2,6 +2,7 @@
 	# Mitt navn: Simon Sæterbø: Dato: 19.01.2020: Oblig 2
 	echo "<html>\n";
 	echo "<body>\n";
+	include "topp.php";
 	echo "<h1>Kryptovaluta kjøp & salg &reg;</h1>";
 	echo "<p>Her får du hjelp til å handle med kryptovaluta</p>";
 	echo "<ul> <li> <a href='kjopOgSalg.php'> kjøp og salg </a> </li>
