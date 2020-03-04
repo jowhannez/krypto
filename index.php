@@ -8,6 +8,7 @@
 	echo "<ul> <li> <a href='kjopOgSalg.php'> kjøp og salg </a> </li>
 	<a href='oversikter.php'> oversikter og historikk </a> </li> </ul>";
 	# For å lage en konstant kan man legge til PROGNAVN = "Kryptovaluta kjøp & salg &reg;".
+	include "bunn.php";
 	echo "</body>\n";
 	echo "</html>\n";
 	# Svar til spm. 4: Fordel: trenger bare forandre en gang. Den er konstant. Defineres et sted. Vises flere steder.
