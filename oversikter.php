@@ -1,4 +1,5 @@
 <?php
+include "topp.php";
 	echo "<table border=1>
   <tr>
   	<th>Navn</th>
@@ -20,4 +21,5 @@
     </td>
 	</tr>
 	</table>";
+include "bunn.php";
 ?>
